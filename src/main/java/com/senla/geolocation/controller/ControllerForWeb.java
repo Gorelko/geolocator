@@ -26,9 +26,6 @@ public class ControllerForWeb {
             Map<String, Object> model
     ) throws IOException {
 
-        System.out.println(123);
-        System.out.println(enterData);
-
         String arrArtificialCache[] = artificialCache.toString().split("separator");
         if (enterData.replaceAll(" ", "").length() != 0) {
             for (int i = 0; i < arrArtificialCache.length; i++) {
