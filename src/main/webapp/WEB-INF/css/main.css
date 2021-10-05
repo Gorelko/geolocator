@@ -1,0 +1,177 @@
+body {
+    background: url(https://marcbruederlin.github.io/particles.js/img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#messageHeader {
+    height: 20px;
+}
+
+
+#message {
+    height: 76px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 5px;
+    width: 500px;
+    margin: 20% auto;
+}
+
+#button {
+    display: inline-block;
+    font-size: 11px;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 0.6em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    height: 39px;
+    width: 74px;
+}
+
+#button:hover {
+    color: rgb(24, 24, 24);
+    border: 1px solid rgb(198, 198, 198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+#button:active {
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(238, 238, 238) linear-gradient(rgb(238, 238, 238), rgb(224, 224, 224));
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
+}
+
+.input {
+    height: 18px;
+    margin-right: 10px;
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    transition: .17s linear;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid #fdd734;
+    box-shadow: 0 0 1px 1px #fdd734;
+}
+
+.input_error, .input_error:focus {
+    outline: none;
+    border: 1px solid #f33;
+    box-shadow: 0 0 1px 1px #f33;
+}
+
+#button2 {
+    display: inline-block;
+    font-size: 11px;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 0.6em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    height: 19px;
+    width: 100%;
+}
+
+#button2:hover {
+    color: rgb(24, 24, 24);
+    border: 2px solid rgb(198, 198, 198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+#button2:active {
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(238, 238, 238) linear-gradient(rgb(238, 238, 238), rgb(224, 224, 224));
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
+}
+
+x-field .close {
+
+    position: absolute;
+    padding: 0px;
+    right: 11px;
+    top: 0%;
+    cursor: pointer;
+    font-size: 4mm;
+}
+
+x-field {
+    display: inline;
+    position: relative;
+}
+
+copy-field .close {
+    position: absolute;
+    padding: 0px;
+    right: 11px;
+    top: 0%;
+    cursor: pointer;
+    font-size: 4mm;
+}
+
+copy-field {
+    display: inline;
+    position: relative;
+}
+
+#buttonClose {
+    display: inline-block;
+    font-size: 13px;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 0.6em;
+    outline: none;
+    border: 1px solid rgba(1, 0, 0, .1);
+    border-radius: 2px;
+    background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    height: 110%;
+    width: 10%;
+}
+
+#buttonCopy {
+    display: inline-block;
+    font-size: 11px;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 0.6em;
+    outline: none;
+    border: 1px solid rgba(1, 0, 0, .1);
+    border-radius: 2px;
+    background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    height: 110%;
+    width: 10%;
+}
