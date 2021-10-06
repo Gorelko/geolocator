@@ -11,7 +11,7 @@ function myFunction() {
         if (ajax.readyState == 4 && (ajax.status == 200)) {
             console.log("ready")
             if (enterInfor.replaceAll(" ","")==""){
-
+                $('#notice').val("Null")
             }else{
                 var Data = JSON.parse(ajax.responseText);
                 console.log(Data);
