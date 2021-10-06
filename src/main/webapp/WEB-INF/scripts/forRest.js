@@ -10,11 +10,14 @@ function myFunction() {
 
         if (ajax.readyState == 4 && (ajax.status == 200)) {
             console.log("ready")
-            var Data = JSON.parse(ajax.responseText);
-            console.log(Data);
-            /*document.getElementById("personinfo").innerHTML = Data.adress;*/
-            $('#notice').val(Data.adress)
+            if (enterInfor.replaceAll(" ","")==""){
 
+            }else{
+                var Data = JSON.parse(ajax.responseText);
+                console.log(Data);
+                /*document.getElementById("personinfo").innerHTML = Data.adress;*/
+                $('#notice').val(Data.adress)
+            }
         } else {
             console.log("not ready yet")
         }
